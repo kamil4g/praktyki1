@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;  
     
   }
+  body{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   a {
     text-decoration: none;
     color: black;
@@ -501,7 +505,7 @@
             user-select: none;
           }
           
-          /* Hide the browser's default checkbox */
+          
           .container input {
             position: absolute;
             opacity: 0;
@@ -566,17 +570,17 @@
           footer{
             margin-top: 250px;
             display: flex;
-            width: 100%;
+            width: 110%;
             height: 100px;
             background-color:white;
             box-shadow: 0px 1px 10px #999;
             color: #08a6e4;
-
           }
 
           .footlogo {
             margin-left: 70px;
             font-family: 'Montserrat', sans-serif;
+ 
             font-size: 32px;
             color: #08a6e4;
             text-shadow: -6px 3px 7px rgba(8, 166, 228, 1);
@@ -591,13 +595,15 @@
           .footimg{
             width: 24px;
             height: 24px;
-            margin-left: 200px;
+            margin-left: 1400px;
             align-self: center;
+            position: absolute;
           }
           .footimg1{
             width: 24px;
             height: 24px;
-            margin-left: 200px;
+            margin-left: 1430px;
             align-self: center;
+            position: absolute;
           }
       
